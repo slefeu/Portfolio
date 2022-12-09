@@ -1,0 +1,895 @@
+body {
+   background: #0f0f0f;
+}
+
+header {
+   position: relative;
+   height: 800px;
+   min-height: 500px;
+   width: 100%;
+   background-size: cover !important;
+   -webkit-background-size: cover !important;
+   text-align: center;
+   overflow: hidden;
+}
+
+header:before {
+   content: '';
+   display: inline-block;
+   vertical-align: middle;
+   height: 100%;
+}
+
+header .banner {
+   display: inline-block;
+   vertical-align: middle;
+   margin: 0 auto;
+   width: 85%;
+   padding-bottom: 30px;
+   text-align: center;
+}
+
+header .banner-text h2 {
+   color: #E6E4E2;
+}
+
+header .banner-text {
+   width: 100%;
+}
+
+header .banner-text h1 {
+   font: 160px 'Allison_Script';
+   color: #F06000;
+   margin: auto auto -1.5rem auto;
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+
+header .banner-text h3 {
+   font: 18px/1.9em 'Merriweather', serif;
+   color: #A8A8A8;
+   margin: auto;
+   width: 60%;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+}
+
+header .banner-text h3 span,
+header .banner-text h3 a {
+   color: #E6E4E2;
+}
+
+header .banner-text hr {
+   width: 60%;
+   margin: 18px auto 24px auto;
+   border-color: #3d3a3a;
+}
+
+/* header social links */
+header .social {
+   margin: 24px 0;
+   padding: 0;
+   font-size: 30px;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+
+header .social li {
+   display: inline-block;
+   margin: 0 15px;
+   padding: 0;
+}
+
+header .social li a {
+   color: #E6E4E2;
+}
+
+header .social li a:hover {
+   color: #F06000;
+}
+
+/* scrolldown link */
+header .scrolldown a {
+   position: absolute;
+   bottom: 30px;
+   left: 50%;
+   margin-left: -29px;
+   color: #E6E4E2;
+   display: block;
+   height: 42px;
+   width: 42px;
+   font-size: 42px;
+   line-height: 42px;
+   color: #E6E4E2;
+   border-radius: 100%;
+
+   -webkit-transition: all .3s ease-in-out;
+   -moz-transition: all .3s ease-in-out;
+   -o-transition: all .3s ease-in-out;
+   transition: all .3s ease-in-out;
+}
+
+header .scrolldown a:hover {
+   color: #F06000;
+}
+
+/* primary navigation
+--------------------------------------------------------------------- */
+#nav-wrap ul,
+#nav-wrap li,
+#nav-wrap a {
+   margin: 0;
+   padding: 0;
+   border: none;
+   outline: none;
+}
+
+/* nav-wrap */
+#nav-wrap {
+   font: 12px 'Merriweather', sans-serif;
+   width: 100%;
+   text-transform: uppercase;
+   letter-spacing: 2.5px;
+   margin: 0 auto;
+   z-index: 100;
+   position: fixed;
+   left: 0;
+   top: 0;
+   background: rgba(43, 43, 43, 0.7);
+   backdrop-filter: blur(7px);
+}
+
+.opaque {
+   background-color: #333;
+}
+
+/* hide toggle button */
+#nav-wrap>a.mobile-btn {
+   display: none;
+}
+
+ul#nav {
+   min-height: 60px;
+   width: auto;
+   text-align: center;
+}
+
+ul#nav li {
+   position: relative;
+   list-style: none;
+   height: 48px;
+   display: inline-block;
+}
+
+/* Links */
+ul#nav li button {
+
+   border: none;
+   background: unset;
+   display: inline-block;
+   line-height: 32px;
+   text-decoration: none;
+   text-align: left;
+   color: #E6E4E2;
+
+   -webkit-transition: color .2s ease-in-out;
+   -moz-transition: color .2s ease-in-out;
+   -o-transition: color .2s ease-in-out;
+   -ms-transition: color .2s ease-in-out;
+   transition: color .2s ease-in-out;
+}
+
+ul#nav li button:active {
+   background-color: transparent !important;
+}
+
+ul#nav li button:hover {
+   color: #F06000;
+}
+
+/* ------------------------------------------------------------------ */
+/* c. About Section
+/* ------------------------------------------------------------------ */
+
+#about {
+   background: #2B2B2B;
+   padding-top: 8rem;
+   padding-bottom: 10rem;
+   overflow: hidden;
+}
+
+#about a,
+#about a:visited {
+   color: #E6E4E2;
+}
+
+#about a:hover,
+#about a:focus {
+   color: #11ABB0;
+}
+
+#about h2 {
+   font: 9rem 'Allison_Script', sans-serif;
+   color: #F06000;
+   margin-bottom: 2.5rem;
+   margin-top: 2rem;
+}
+
+#about p {
+   line-height: 30px;
+   color: #bfb9b9;
+   text-align: justify;
+}
+
+#about .profile-pic {
+   position: relative;
+   border-radius: 100%;
+   margin-top: 4rem
+}
+
+#about .contact-details {
+   width: 41.66667%;
+}
+
+#about .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+
+#about .main-col {
+   padding-right: 5%;
+}
+
+#about i {
+   scale: 2;
+   padding-left: 2rem;
+   padding-right: 2rem;
+}
+
+#about span {
+   border-bottom: 3px solid #F06000;
+}
+#about a:hover {
+   color: #F06000;
+}
+
+#about .row-contact {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+#about .row-contact p {
+   padding: 0;
+   margin: 0;
+   padding-top: 1.2rem;
+   font-size: 1.6rem;
+}
+
+#about svg {
+   margin-top: 1.3rem;
+   font-size: 3rem;
+}
+#about .settings {
+   padding-left: 1rem;
+   padding-right: 1.1rem;
+}
+
+/* ------------------------------------------------------------------ */
+/* d. Resume Section
+/* ------------------------------------------------------------------ */
+
+#resume {
+   background: #2B2B2B;
+   padding-top: 8rem;
+   overflow: hidden;
+}
+
+#resume svg {
+   scale: 2;
+   margin-right: 2rem;
+   border-radius: 20%;
+}
+
+#resume .header {
+   font-size: 19px;
+   margin-left: 5rem;
+}
+
+#resume a,
+#resume a:visited {
+   color: white;
+}
+
+#resume a:hover,
+#resume a:focus {
+   color: #F06000;
+}
+
+#resume h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+
+#resume h1 span {
+   border-bottom: 3px solid #F06000;
+   padding-bottom: 6px;
+}
+
+#resume h2 {
+   font: 9rem 'Allison_Script', sans-serif;
+   color: #F06000;
+   margin-bottom: 2.5rem;
+   margin-top: 2rem;
+   display: flex;
+   justify-content: center;
+}
+
+#resume h2 span {
+   padding-bottom: 3rem;
+   margin-left: 5rem;
+}
+
+#resume .download-format {
+   scale: 3;
+}
+
+#resume .downloadformat-small {
+   display:none;
+}
+
+#resume h3 {
+   font: 2.2rem 'opensans-bold', sans-serif;
+   color: #E6E4E2;
+   margin-bottom: .5rem;
+   margin-top: 1rem;
+}
+
+#resume .header-col {
+   padding-top: 1.3rem;
+}
+
+#resume .main-col {
+   padding-right: 10%;
+}
+
+.education,
+.certification,
+.work {
+   margin-bottom: 2.5rem;
+   padding-bottom: 2.5rem;
+   border-bottom: 1px solid #7b3506;
+}
+
+#resume .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 1rem;
+}
+
+#resume .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+
+#resume .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+#resume button {
+   background-color: #F06000;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+}
+
+#resume button:hover {
+   background-color: #7b3506
+}
+
+/*----------------------------------------------*/
+/*	Skill Bars
+/*----------------------------------------------*/
+
+.bars {
+   width: 95%;
+   float: left;
+   text-align: left;
+   padding-top: 1.3rem;
+
+}
+
+.bars .skills {
+   margin-top: 36px;
+   list-style: none;
+}
+
+.bars li {
+   position: relative;
+   margin-bottom: 60px;
+   background: #ccc;
+   height: 42px;
+   border-radius: 3px;
+}
+
+.bars li em {
+   font: 15px 'opensans-bold', sans-serif;
+   color: #E6E4E2;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-weight: normal;
+   position: relative;
+   top: -36px;
+}
+
+.bar-expand {
+   position: absolute;
+   left: 0;
+   top: 0;
+   margin: 0;
+   padding-right: 24px;
+   background: #b64c05;
+   display: inline-block;
+   height: 42px;
+   line-height: 42px;
+   border-radius: 3px 0 0 3px;
+}
+
+.bar-expand:hover {
+   background-color: #7b3506;
+}
+
+
+.cpp {
+   width: 80%;
+   animation: cpp 2s ease;
+   -moz-animation: cpp 2s ease;
+   -webkit-animation: cpp 2s ease;
+}
+
+.c {
+   width: 90%;
+   animation: c 2s ease;
+   -moz-animation: c 2s ease;
+   -webkit-animation: c 2s ease;
+}
+
+.reactjs {
+   width: 70%;
+   animation: reactjs 2s ease;
+   -moz-animation: reactjs 2s ease;
+   -webkit-animation: reactjs 2s ease;
+}
+
+.python {
+   width: 70%;
+   animation: python 2s ease;
+   -moz-animation: python 2s ease;
+   -webkit-animation: python 2s ease;
+}
+
+.flutter {
+   width: 50%;
+   animation: flutter 2s ease;
+   -moz-animation: flutter 2s ease;
+   -webkit-animation: flutter 2s ease;
+}
+
+@keyframes cpp {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 90%;
+   }
+}
+
+@keyframes c {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 90%;
+   }
+}
+
+@keyframes reactjs {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 50%;
+   }
+}
+
+@keyframes python {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 90%;
+   }
+}
+
+@keyframes flutter {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 90%;
+   }
+}
+
+@-moz-keyframes cpp {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 90%;
+   }
+}
+
+@-moz-keyframes c {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 90%;
+   }
+}
+
+@-moz-keyframes reactjs {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 50%;
+   }
+}
+
+@-moz-keyframes python {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 90%;
+   }
+}
+
+@-moz-keyframes flutter {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 90%;
+   }
+}
+
+@-webkit-keyframes cpp {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 90%;
+   }
+}
+
+@-webkit-keyframes c {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 90%;
+   }
+}
+
+@-webkit-keyframes reactjs {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 50%;
+   }
+}
+
+@-webkit-keyframes python {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 50%;
+   }
+}
+
+@-webkit-keyframes flutter {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 50%;
+   }
+}
+
+/* ------------------------------------------------------------------ */
+/* e. Portfolio Section
+/* ------------------------------------------------------------------ */
+
+#portfolio {
+   background: #2B2B2B;
+   display: flex;
+   flex-direction: column;
+   padding-top: 6rem;
+}
+
+#portfolio .project {
+   padding-top: 15px;
+   padding-bottom: 60px;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+}
+
+.project .item-box {
+   background:#353535;
+   display: flex;
+   flex-direction: row;
+   margin: 1rem;
+   min-width: 20rem;
+   max-width: 70rem;
+   height: 30rem;
+   border-radius: 1rem;
+   overflow: hidden;
+}
+
+.project .item-box div:first-child {
+   flex: 1;
+   width: 100%;
+   overflow: hidden;
+}
+
+.project .item-box div:first-child img {
+   object-fit: cover;
+   height: 100%;
+   width: 100%;
+}
+
+.project .item-box div:last-child {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   padding: 3rem;
+   text-align: justify;
+   justify-content: center;
+}
+
+.project .item-box div:last-child h5 {
+   font-size: 3rem;
+   padding-bottom: 1.5rem;
+}
+
+.project .item-box div:last-child p {
+   max-height: 10rem;
+   overflow-y: scroll;
+   font-size: 1.5rem;
+   line-height: 2.5rem;
+   margin: unset;
+   margin-bottom: 2rem;
+   transition-duration: .5s;
+}
+
+.project .item-box div:last-child p::-webkit-scrollbar {
+   display: none;
+}
+
+.project .item-box div:last-child p:hover {
+   color: #F06000;
+}
+
+.project .item-box div:last-child a {
+   transition: unset !important;
+   text-decoration: none;
+   width: fit-content;
+   border-radius: 1rem;
+   padding: 1rem;
+   padding-top: .5rem;
+   padding-bottom: .5rem;
+   text-decoration: none;
+   border: 3px solid #F06000;
+   color: #fff;
+   font-size: 1.8rem;
+   box-shadow: inset 0 0 0 0 #FFF;
+}
+
+.project .item-box div:last-child a:hover {
+   color: #F06000;
+   border: 3px solid white;
+   background-color: #F06000;
+}
+
+.project .item-box div:last-child a .social-padding {
+   padding-right: 1rem;
+   scale: 1.3;
+}
+
+.project .item-box div:last-child a:hover {
+   color: #fff;
+   border-color: #F06000;
+}
+
+.project .item-box .content h1 {
+   font: 2rem 'Allison_Script', sans-serif;
+   color: #F06000;
+   margin-bottom: 1rem;
+}
+
+#portfolio h1 {
+   font: 9rem 'Allison_Script', sans-serif;
+   color: #F06000;
+   margin-bottom: 2.5rem;
+   margin-top: 2rem;
+   display: flex;
+   justify-content: center;
+}
+
+#portfolio .title-small {
+   display: none;
+}
+
+/* Flex Slider
+/* ------------------------------------------------------------------ */
+
+/* Reset */
+.flexslider a:active,
+.flexslider a:focus {
+   outline: none;
+}
+
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.slides li {
+   margin: 0;
+   padding: 0;
+}
+
+/* Necessary Styles */
+.flexslider {
+   position: relative;
+   zoom: 1;
+   margin: 0;
+   padding: 0;
+}
+
+.flexslider .slides {
+   zoom: 1;
+}
+
+.flexslider .slides>li {
+   position: relative;
+}
+
+/* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides>li {
+   display: none;
+   backface-visibility: hidden;
+   -webkit-backface-visibility: hidden;
+}
+
+/* Suggested container for slide animation setups. Can replace this with your own */
+.flex-container {
+   zoom: 1;
+   position: relative;
+}
+
+/* Clearfix for .slides */
+.slides:before,
+.slides:after {
+   content: " ";
+   display: table;
+}
+
+.slides:after {
+   clear: both;
+}
+
+.no-js .slides>li:first-child {
+   display: block;
+}
+
+/* Slider Styles */
+.slides {
+   zoom: 1;
+}
+
+.slides>li {
+   overflow: hidden;
+}
+
+/* Control Nav */
+.flex-control-nav {
+   width: 100%;
+   position: absolute;
+   bottom: -20px;
+   text-align: left;
+}
+
+.flex-control-nav li {
+   margin: 0 6px;
+   display: inline-block;
+   zoom: 1;
+   *display: inline;
+}
+
+.flex-control-paging li a {
+   width: 12px;
+   height: 12px;
+   display: block;
+   background: #ddd;
+   background: rgba(255, 255, 255, .3);
+   cursor: pointer;
+   text-indent: -9999px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -o-border-radius: 20px;
+   border-radius: 20px;
+   box-shadow: inset 0 0 3px rgba(255, 255, 255, .3);
+}
+
+.flex-control-paging li a:hover {
+   background: #CCC;
+   background: rgba(255, 255, 255, .7);
+}
+
+.flex-control-paging li a.flex-active {
+   background: #E6E4E2;
+   background: rgba(255, 255, 255, .9);
+   cursor: default;
+}
+
+/* Miscellaneous rules */
+
+.width-svg {
+   scale: 2;
+}
+
+.padding-socials {
+   padding-left: 20px;
+   padding-top: 10px;
+}
+
+.responsive-text {
+   color: #E6E4E2 !important;
+}
+
+
+.uppercase-text {
+   text-transform: uppercase;
+}
+
+.layer-image {
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
